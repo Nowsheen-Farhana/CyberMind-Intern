@@ -1,0 +1,273 @@
+.comments {
+  margin-top: 20px;
+}
+
+.comments-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.comment-form-title {
+  font-size: 22px;
+}
+
+.comment-form-textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 1px solid rgb(107, 114, 12);
+}
+
+.comment-form-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background: rgb(59, 130, 246);
+  border-radius: 8px;
+  color: white;
+}
+
+.comment-form-button:hover:enabled {
+  cursor: pointer;
+  background: rgb(37, 99, 235);
+}
+
+.comment-form-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.comment-form-cancel-button {
+  margin-left: 10px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.comment-image-container {
+  margin-right: 12px;
+}
+
+.comment-image-container img {
+  border-radius: 50px;
+}
+
+.comment-right-part {
+  width: 100%;
+}
+
+.comment-content {
+  display: flex;
+}
+
+.comment-author {
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(59, 130, 246);
+}
+
+.comment-text {
+  font-size: 18px;
+}
+
+.comment-actions {
+  display: flex;
+  font-size: 12px;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.comment-action {
+  margin-right: 8px;
+}
+
+.comment-action:hover {
+  text-decoration: underline;
+}
+
+.replies {
+  margin-top: 20px;
+}
+.fullbg{
+  background-color: #efefef;
+  width: 100%;
+  height: 100%;
+  padding: 37px 0;
+}
+.boxbg{
+ width: 319.45px;
+  height:100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  gap:19px;
+  border: 1px solid #BCBCBC;
+  margin: 0 625px;
+
+}
+.boxbor{
+margin-bottom: 20px;
+}
+.mar{
+  margin-right: 12px;
+}
+.flower{
+  color:#E92C2C;
+  border: 1px solid #CECECE;
+  width: 269.45px;
+  height: 44px;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+  gap:10px;
+}
+.note{
+  margin-top: 20px;
+  gap: 15px;
+  margin-left: 12px;
+}
+.assigntxt{
+  color:#5A5A5A;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  width: 64px;
+  height: 17px;
+  margin-top: 4px;
+}
+.jane{
+  border-radius: 25px;
+  border: 1px solid #EDEDED;
+  padding: 5px 10px;
+  gap: 10px;
+}
+.janename{
+ font-size:12px ;
+ font-weight:600 ;
+ margin-top: 4px;
+ margin-right: 15px;
+ color: #009379;
+}
+.cont{
+  border-radius: 12px;
+  border: 1px solid #EDEDED;
+  padding: 5px 10px;
+}
+.contact{
+  font-size: 14px;
+  font-weight: 400;
+  color: #5A5A5A;
+}
+.bord{
+  border: 1px solid #E3E3E3;
+  margin: 15px 0px;
+}
+.comment{
+  font-size:14px ;
+  font-weight: 700;
+  color: #5A5A55;
+font-style: italic;
+}
+.comments{
+  margin: 10px 0px;
+}
+.comtxt{
+  margin-left: 13px;
+}
+.txt{
+  font-size: 12px;
+  font-weight: 600;
+  color: #5A5A5A;
+}
+.janenam{
+  font-size:12px ;
+  font-weight:600 ;
+  color: #009379;
+}
+.trash{
+  margin-top: 20px;
+}
+.input{
+  margin-left: 13px;
+}
+.input input{
+  border-radius: 25px;
+  border: 1px solid #E3E3E3;
+  padding: 15px;
+  width: 234.5px;
+  height: 43px;
+}
+.send{
+  position: relative;
+  right: 30px;
+  top: 25px;
+  width: 12px;
+  height: 12px;
+}
+.datetime{
+  display: inline;
+  width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: 1px solid #dee2e6;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.girlimg{
+  margin-top: 25px;
+}
+.frthrow{
+  display: flex;
+  width:269px;
+  height:45px;
+  align-items: center;
+  margin: 20px 12px;
+}
+.assign{
+  font-weight: 500;
+  font-size: 14px;
+  font-style: italic;
+  color: #5A5A5A;
+  margin-left: 15px;
+ 
+}
+.fright{
+  width:162px;
+  height:45px;
+  border:1px solid #EDEDED;
+  border-radius: 25px;
+  padding:10px 15px 10px 15px;
+  margin-left: 15px;  
+}
+.selectprofile select{
+  appearance: none;
+  border: none!important;
+  color: #009379;
+  margin-left: 10px;
+}
+.selectprofile::after{
+  content:'';
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent;
+  border-top-color: #222;
+   display: inline-block;
+   position: relative;
+   top:2px;
+   left:19px
+}
+.butt{
+  background-color: #fff !important;
+  border:none !important;
+  padding: 0px;
+}
+.butt img{
+  margin-bottom: 2px;
+}
